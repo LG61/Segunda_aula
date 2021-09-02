@@ -10,5 +10,25 @@ void main(List<String> arguments) {
  lista.insert(cont, nome!);
  cont++;
 }
-print(lista);
+dwhi(lista);
+
+print('lista 2:');
+var listaB = <String>[];
+for(var cont3=0; cont3<4; cont3++){
+ var nome2 = stdin.readLineSync();
+ listaB.insert(cont3, nome2!);
+}
+listaB.forEach(imp);
+
+}
+
+void dwhi(n){
+ var cont2=0; 
+  do{
+  print(n[cont2]);
+  cont2++;
+  }while(cont2 < 4);
+}
+void imp(String t){
+  print('lol $t');
 }
